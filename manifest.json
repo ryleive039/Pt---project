@@ -1,0 +1,17 @@
+{
+    "name": "Dogs Image API",
+    "short_name": "Random Dogs",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "icons": [
+      {
+        "src": "./2A/happy.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      }
+    ],
+    "background_color": "#ddd",
+    "theme_color": "#333"
+}
+      
+  

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Random Dog Viewer</title>
+    <link rel="shortcut icon" href="happy.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="manifest" href="manifest.json" />
+    <meta name="theme-color" content="#333" />
+</head>
+<body class="has-background-black">
+    <nav class="navbar has-background-black">
+        <div class="navbar-brand">
+            <a class="navbar-item">
+                <img src="2A/happy.png" alt="dog-logo" style="max-height: 65px;" class="py-2 px-2">
+                <h1 class="title is-3 has-text-centered">DOGS</h1>
+            </a>
+        </div>
+    </nav>
+    <progress class="progress is-small is-warning" max="100">15%</progress>
+    <div class="container has-text-centered has-background-warning-25 has-text-warning-25-invert">
+        <section>
+            <figure class="image is-64x64">
+                <img class="is-rounded " src="2A/pawprint.png" />
+              </figure>
+            <h2 class="title is-2 ">Discover a Random Dog Picture!</h2>         
+        </section>
+        <button id="fetch-dog" aria-label="Get a random dog picture" class="has-background-warning-00 has-text-warning-00-invert">Click Here to Discover Adorable Dogs</button>
+        <div id="dog-display">
+            <img id="dog-image" src="" alt="Random Dog" style="display:none;">
+            <p id="dog-info" class="has-text-weight-semibold"></p>
+        </div>
+    </div>
+    <footer class="footer has-background-black">
+        <div class="content has-text-centered">
+            <article class="message is-warning">
+                <div class="message-header">
+                  <p>Message:</p>
+                </div>
+                <div class="message-body">
+                    <strong>Dogs</strong> are incredible creatures that bring so much joy, love, and companionship into our lives. They are loyal, intelligent, and always ready to offer unconditional affection. These wonderful qualities make it essential for us to appreciate and value them fully. <br>
+                    <br><strong>Bulma</strong> by <a href="https://github.com/ryleive039">Karyl Aladad</a>.
+                </div>
+              </article>
+        </div>
+      </footer>
+
+    <script src="script.js">       
+    </script>
+</body>
+</html>
